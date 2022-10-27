@@ -39,6 +39,7 @@ namespace WpfApp3
 
             try
             {
+                //Выборка аккаунта из таблицы по логину и паролю
                 var user = Db.Users.Include(x=>x.Status).Single(x => x.Login == tbLogin.Text
             && x.Password == tbPassword.Password.ToString());
 
