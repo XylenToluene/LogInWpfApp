@@ -96,5 +96,6 @@ namespace WpfApp3
             guestWindow.Show();
             Close();
         }
+
     }
 }

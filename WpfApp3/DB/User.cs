@@ -2,6 +2,9 @@
 
 namespace WpfApp3.DB
 {
+    /// <summary>
+    /// Класс для пользователя
+    /// </summary>
     public class User
     {
         public int Id { get; set; }
